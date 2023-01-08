@@ -350,11 +350,38 @@ const salesInvoice = Vue.component('sales-invoice', {
                     </head>
                     <body>
                         <div class="row">
-                            <div class="col-xs-2"><img src="/uploads/company_profile_thum/${this.currentBranch.Company_Logo_org}" alt="Logo" style="height:80px;" /></div>
+                            <div class="col-xs-3" style="padding:0;padding-left:5px;">
+                                <img src="/uploads/company_profile_thum/${this.currentBranch.Company_Logo_org}" alt="Logo" style="height:48px;width:100%;margin-top:-5px;" />
+                                <p style="font-size:10px;margin:0;padding-left:10px;">+88 01788-684058<br> 
+                                chitrayongraphics@gmail.com<p>
+                            </div>
+                            <div class="col-xs-3" style="padding:0;font-size:10px;padding-left: 20px;">
+                                <span style="font-weight:bold;">Head Office:</span> <br>
+                                48/A-B, Baytul Khair <br>
+                                Bhaban Purana Paltan <br>
+                                Dhaka-1000 <br>
+                                <span style="font-weight:bold;">Hotline: 01978-684059</span>
+                            </div>
+                            <div class="col-xs-3" style="padding:0;font-size:10px;padding-left: 16px;">
+                                <span style="font-weight:bold;">Branch Office:</span> <br>
+                                31/1, Sharif Complex <br>
+                                Purana Paltan <br>
+                                Dhaka-1000 <br>
+                                <span style="font-weight:bold;">Hotline: 01978-684058</span>
+                            </div>
+                            <div class="col-xs-3" style="padding:0;font-size:10px;padding-left: 10px;">
+                                <span style="font-weight:bold;">Factory:</span> <br>
+                                31/1, Sharif Complex <br>
+                                Purana Paltan <br>
+                                Dhaka-1000 <br>
+                                <span style="font-weight:bold;">Hotline: 01978-684055</span>
+                            </div>
+                            <!-- 
                             <div class="col-xs-10" style="padding-top:20px;">
                                 <strong style="font-size:18px;">${this.currentBranch.Company_Name}</strong><br>
                                 <p style="white-space:pre-line;">${this.currentBranch.Repot_Heading}</p>
                             </div>
+                            -->
                         </div>
                         <div class="row">
                             <div class="col-xs-12">
@@ -392,11 +419,38 @@ const salesInvoice = Vue.component('sales-invoice', {
                                     <tr>
                                         <td>
                                             <div class="row">
-                                                <div class="col-xs-2"><img src="/uploads/company_profile_thum/${this.currentBranch.Company_Logo_org}" alt="Logo" style="height:80px;" /></div>
+                                                <div class="col-xs-3" style="padding:0;padding-left:5px;">
+                                                    <img src="/uploads/company_profile_thum/${this.currentBranch.Company_Logo_org}" alt="Logo" style="height:53px;width:100%;" />
+                                                    <p style="font-size:12px;margin:0;padding-left:10px;">+88 01788-684058<br> 
+                                                    chitrayongraphics@gmail.com<p>
+                                                </div>
+                                                <div class="col-xs-3" style="padding:0;font-size:12px;padding-left: 20px;">
+                                                    <span style="font-weight:bold;">Head Office:</span> <br>
+                                                    48/A-B, Baytul Khair <br>
+                                                    Bhaban Purana Paltan <br>
+                                                    Dhaka-1000 <br>
+                                                    <span style="font-weight:bold;">Hotline: 01978-684059</span>
+                                                </div>
+                                                <div class="col-xs-3" style="padding:0;font-size:12px;padding-left: 16px;">
+                                                    <span style="font-weight:bold;">Branch Office:</span> <br>
+                                                    31/1, Sharif Complex <br>
+                                                    Purana Paltan <br>
+                                                    Dhaka-1000 <br>
+                                                    <span style="font-weight:bold;">Hotline: 01978-684058</span>
+                                                </div>
+                                                <div class="col-xs-3" style="padding:0;font-size:12px;padding-left: 10px;">
+                                                    <span style="font-weight:bold;">Factory:</span> <br>
+                                                    31/1, Sharif Complex <br>
+                                                    Purana Paltan <br>
+                                                    Dhaka-1000 <br>
+                                                    <span style="font-weight:bold;">Hotline: 01978-684055</span>
+                                                </div>
+                                                <!--                                                
                                                 <div class="col-xs-10" style="padding-top:20px;">
                                                     <strong style="font-size:18px;">${this.currentBranch.Company_Name}</strong><br>
                                                     <p style="white-space:pre-line;">${this.currentBranch.Repot_Heading}</p>
                                                 </div>
+                                                -->
                                             </div>
                                             <div class="row">
                                                 <div class="col-xs-12">
